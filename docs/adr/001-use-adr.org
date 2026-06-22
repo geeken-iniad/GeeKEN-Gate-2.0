@@ -1,0 +1,22 @@
+#+title: Architecture Decision Recordの使用
+
+* Status
+- Draft: レビュー中、あるいは検証中
+
+* Context
+# このライブラリを導入する背景や、このアーキテクチャを選定するに至った背景
+# 解決したい課題を記入する
+Discord等で決定した事項について、明示的な許諾のプロセスを踏んで、リポジトリで見える場所に共有するため。
+
+- 決定事項の共有、記録、確認を行うため。
+
+* Decision
+# どういう決定をするか
+=./docs/adr/000-example.org= にファイルを追加する。
+Pull Requestでレビューを行い、許可されればStatusをAcceptedとしてマージ、あるいはDraftとしてマージして検証する。
+
+不要になった記録、非推奨になった記録はStatusをHistoricにして、 =000-historic-example.org= のような名前にする。
+
+* Consequences
+# この決断をしたことによって生じた結果。
+# e.g. ○○がよくなった、生産性があがった、XX が難しくなった、別の課題が生まれた。
