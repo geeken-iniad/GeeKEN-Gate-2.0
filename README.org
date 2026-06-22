@@ -2,8 +2,6 @@
 #+language: en
 #+options: toc:nil
 
-* GeeKEN-Gate-2.0
-
 GeeKEN-Gate-2.0 is an experimental rewrite of GeeKEN-Gate.
 
 The project is intended to explore a cleaner and more maintainable authentication foundation for GeeKEN-related services.
