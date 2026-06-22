@@ -1,0 +1,69 @@
+#+title: GeeKEN-Gate-2.0
+#+language: en
+#+options: toc:nil
+
+* GeeKEN-Gate-2.0
+
+GeeKEN-Gate-2.0 is an experimental rewrite of GeeKEN-Gate.
+
+The project is intended to explore a cleaner and more maintainable authentication foundation for GeeKEN-related services.
+
+At this stage, the detailed specification is not fixed.
+
+** Status
+
+This repository is in the early planning and prototyping phase.
+
+The current implementation plan, technology stack, API design, and deployment model may change.
+
+** Background
+
+The original GeeKEN-Gate was created as an authentication gateway for checking whether a user belongs to a specific GitHub Organization.
+
+GeeKEN-Gate-2.0 may expand this idea into a broader authentication or account-management system, but the exact scope has not yet been decided.
+
+** Tentative Goals
+
+- Provide a common authentication layer for GeeKEN services.
+- Keep the codebase small and maintainable.
+- Learn from the previous implementation.
+- Avoid unnecessary complexity before the requirements are clear.
+- Design the system around standard authentication protocols where appropriate.
+
+** Non-goals
+
+- This project is not a general-purpose commercial identity platform.
+- This project should not define application-specific authorization rules.
+- This project should not preserve old design decisions without review.
+
+** Possible Technology Stack
+
+The following technologies are being considered:
+
+- Cloudflare Workers
+- Gleam
+- JavaScript
+- OAuth 2.0
+- OpenID Connect
+
+These choices are not final.
+
+** Development Policy
+
+The project should prefer:
+
+- simple design over premature abstraction;
+- explicit behavior over implicit behavior;
+- readable code over clever code;
+- standard protocols over custom mechanisms;
+- documented decisions over unexplained assumptions.
+
+** Repository Policy
+
+Until the project becomes stable, this repository should be treated as a place for design, experiments, and implementation review.
+
+Breaking changes are expected.
+
+** License
+
+GPL-3.0-only
