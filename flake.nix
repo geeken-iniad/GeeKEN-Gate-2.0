@@ -38,6 +38,8 @@
           pkgs.rebar3
 
           pkgs.nodejs_22
+
+          pkgs.wrangler
         ];
       };
     });
